@@ -49,7 +49,7 @@ def predict():
     # Make prediction and display result
     result = model.predict(data)[0]
     if result == 0:
-        prediction = 'No risk of heart disease'
+        prediction = 'No Risk of heart disease'
     else:
         prediction = 'Risk of heart disease'
 
